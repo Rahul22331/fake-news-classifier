@@ -1,0 +1,17 @@
+# Operating-system and Python-generated files
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Local data and trained model artifacts (large; use Git LFS if sharing them)
+data/raw-data/
+data/processed_data/
+models/old_models
+models/**/*.safetensors
+models/**/*.json
+
+# Local exploratory files
+Goals
+Project
